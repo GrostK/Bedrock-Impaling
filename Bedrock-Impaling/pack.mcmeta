@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 42,
+    "supported_formats": {
+      "min_inclusive": 42,
+      "max_inclusive": 100000000000000000000
+    },
+    "description": {
+      "text": "Bedrock Impaling now on Java. MOJANG FIX THIS"
+    }
+  }
+}
