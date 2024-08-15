@@ -50,9 +50,17 @@
                   }
                 },
                 {
-                  "condition": "minecraft:weather_check",
-                  "raining": true,
-                  "thundering": true
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:weather_check",
+                      "raining": true
+                    },
+                    {
+                      "condition": "minecraft:weather_check",
+                      "thundering": true
+                    }
+                  ]
                 }
               ]
             }
